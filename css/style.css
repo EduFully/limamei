@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.bunito{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bunito canvas{
+    margin-left: -640px;
+}
+
+.bunito-txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
