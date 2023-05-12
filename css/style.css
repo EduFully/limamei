@@ -1,6 +1,13 @@
 body{
     margin: 0;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/9k.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .bunito{
@@ -8,10 +15,10 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-.bunito canvas{
-    margin-left: -640px;
+    width: 50%;
+    margin-top: 10%;
+    border: solid 10px blueviolet;
+    border-radius: 5px;
 }
 
 .bunito-txt{
@@ -19,7 +26,20 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-size: 200px;
+    font-size: 100px;
     font-family: 'Courier New', Courier, monospace;
     color: blueviolet;
+
+}
+
+#tuamae {
+    width: 100%;
+}
+
+#tuamae video{
+    width: 100%;
+}
+#tuamae canvas{
+    width: 100%;
+    margin-left: -100%;
 }
