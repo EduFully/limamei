@@ -5,9 +5,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../img/9k.png');
-    background-size: 100% 100%;
+    background-image: url('../img/macos-monterey-wwdc-21-stock-dark-mode-5k-6016x6016-5585.jpg');
     background-repeat: no-repeat;
+    background-size: 100vw 100vh;
 }
 
 .bunito{
@@ -15,7 +15,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 35%;
     margin-top: 10%;
     border: solid 10px blueviolet;
     border-radius: 5px;
@@ -28,7 +28,7 @@ body{
     align-items: center;
     font-size: 100px;
     font-family: 'Courier New', Courier, monospace;
-    color: blueviolet;
+    color: #ffff;
 
 }
 
